@@ -1,0 +1,190 @@
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+
+
+/* CSS FROM HTML PART OF FASHION BLOG */
+
+body {
+  min-height: 100vh; 
+  font-family: sans-serif; 
+  max-width: 1000px; 
+  margin: 0 auto; 
+
+/* padding: 3em; */
+font-size: 18px;
+line-height: 1.5;
+width: 60em;
+border-left: 6px solid lightgray;
+}
+
+/* html{
+  border-left: 5px solid lightgray;
+} */
+
+
+header, main, footer {
+  padding: 1rem 2rem; 
+} 
+
+header h1 {
+display: inline;
+margin-right: .5em;
+}
+
+
+h1 {
+  color: tomato;
+  /* font-weight: 20;
+  font-size: 60px; */
+  font-size: 3em;
+font-weight: normal;
+}
+
+header h2{
+  font-size: 2em;
+font-weight: normal;
+color: black;
+margin: 0;
+padding: 0;
+}
+
+
+h3 {
+font-size: 2em;
+font-weight: normal;
+color: #CCC;
+margin: 0;
+padding: 0;
+}
+
+
+
+img {
+  display: block;
+margin: 10px 0;
+max-width: 100%;
+}
+
+nav ul {
+  padding: 0; 
+  list-style-type: none; 
+}
+
+.main-nav {
+  display: flex; 
+  justify-content: space-between;
+}
+
+.main-nav a {
+  color: lightgray; 
+}
+
+.footer-nav {
+  display: flex; 
+  justify-content: space-between;
+}
+
+.footer-nav a {
+  color: tomato; 
+}
+
+
+.blog-post-title {
+  font-size: 2rem; /*  change it */
+}
+
+
+a.continues {
+  text-align: right; 
+  font-weight: bold; 
+  color: tomato; 
+  display: block;
+}
+
+
+article {
+  margin-bottom: 4rem; 
+  border-bottom: 1px solid lightgray; 
+  padding-bottom: 2rem; 
+}
+
+
+article p::first-letter {
+  color: lightgray; 
+  /* font-size: 2rem; 
+  font-weight: bold;  */
+  float: left;
+font-size: 6em;
+line-height: 1;
+margin: -.1em .1em 0 -.1em;
+}
+
+footer .copyright {
+  color: lightgray; 
+}
